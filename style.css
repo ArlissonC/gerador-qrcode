@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.container h1 {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.gerar-qr {
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 60px;
+  cursor: pointer;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  background: #252525;
+  color: #fff;
+}
